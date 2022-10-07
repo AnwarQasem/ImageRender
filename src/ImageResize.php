@@ -1,4 +1,5 @@
 <?php
+namespace Muravian\ImageResize;
 
 class ImageResize
 {
