@@ -17,7 +17,7 @@ composer require muravian/php-image-resize
 ### Show Image
 
 ```php
-use \Muravian\ImageResize;
+use Muravian\PhpImageResize\ImageResize;
 
 $image = new ImageResize();
 $image->setPath('../path/to/your/file');
@@ -27,7 +27,7 @@ echo $image->render();
 ### Resize Image based on Width
 
 ```php
-use \Muravian\ImageResize;
+use Muravian\PhpImageResize\ImageResize;
 
 $image = new ImageResize();
 $image->setPath('../path/to/your/file');
@@ -38,7 +38,7 @@ echo $image->render();
 ### Resize Image based on Height
 
 ```php
-use \Muravian\ImageResize;
+use Muravian\PhpImageResize\ImageResize;
 
 $image = new ImageResize();
 $image->setPath('../path/to/your/file');
@@ -49,7 +49,7 @@ echo $image->render();
 ### Resize & Crop Image
 
 ```php
-use \Muravian\ImageResize;
+use Muravian\PhpImageResize\ImageResize;
 
 $image = new ImageResize();
 $image->setPath('../path/to/your/file');

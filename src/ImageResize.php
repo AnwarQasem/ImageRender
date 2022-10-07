@@ -205,7 +205,7 @@ class ImageResize
     public function render()
     {
         $imageInfo = $this->imageInfo();
-        $this->createImage($imageInfo[2]);
+        $this->createImage($imageInfo[3]);
 
         if (isset($this->newWidth) && !isset($this->newHeight))
             return imagewebp($this->resizeImageByW());
