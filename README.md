@@ -1,7 +1,7 @@
 If you don't want to crop, resize or just show images from your server.
 # Install
 
-```composer log
+```bash
 composer require muravian/php-image-resize
 ```
 
