@@ -1,4 +1,9 @@
 If you don't want to crop, resize or just show images from your server.
+# Install
+
+```composer log
+composer require muravian/php-image-resize
+```
 
 # Features
 
@@ -7,7 +12,7 @@ If you don't want to crop, resize or just show images from your server.
 - Resize image based on Height
 - Resize & Crop image
 
-## Examples
+## Usage
 
 ### Show Image
 
