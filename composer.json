@@ -1,7 +1,8 @@
 {
     "name": "muravian/php-image-resize",
-    "description": "Display image that are not in public folder with php.",
+    "description": "Display image that are not in public folder with php. Real time View, Scale / Resize, Crop",
     "type": "library",
+    "keywords": ["php", "image", "resize", "scale", "crop", "show"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -16,6 +17,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": ">=7.4.0",
         "ext-fileinfo": "*",
         "ext-gd": "*"
     }
