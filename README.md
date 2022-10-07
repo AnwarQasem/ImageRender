@@ -57,3 +57,5 @@ $image->setWidth(500);
 $image->setHeight(500);
 echo $image->render();
 ```
+
+Thanks to : [MURAVIAN](https://muravian.com)
