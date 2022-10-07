@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["php", "image", "resize", "scale", "crop", "show"],
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "autoload": {
         "psr-4": {
             "Muravian\\PhpImageResize\\": "src/"
