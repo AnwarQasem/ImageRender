@@ -1,0 +1,22 @@
+{
+    "name": "muravian/php-image-resize",
+    "description": "Display image that are not in public folder with php.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Muravian\\PhpImageResize\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anwar Subhi",
+            "email": "anwar.subhi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-fileinfo": "*",
+        "ext-gd": "*"
+    }
+}
