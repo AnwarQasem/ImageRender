@@ -59,3 +59,5 @@ echo $image->render();
 ```
 
 Thanks to : [MURAVIAN](https://muravian.com)
+
+Used on : [WikiAnimals](https://wikianimals.eu)
